@@ -30,7 +30,7 @@ def read_ground_truth(ground_truth_file):
 
 def read_category_vectors():
     vectors = {}
-    with open('/home/yolan00/Desktop/nlp/data/category_vectors.txt', 'r') as f:  # Absolute path to the category vectors file
+    with open('/home/yolan00/Desktop/nlp/data/category_vectors.txt', 'r') as f:  
         for l in f:
             l = l.rstrip('\n')
             fields = l.split()
